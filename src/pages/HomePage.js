@@ -13,7 +13,7 @@ const HomePage = () => {
               <Link to="/signup" className="btn btn-light btn-lg mt-3">Get Started</Link>
             </div>
             <div className="col-md-6">
-              <img src="/images/travel-illustration.svg" alt="Travel Planning" className="img-fluid" />
+              <img src={process.env.PUBLIC_URL + "/images/travel-illustration.svg"} alt="Travel Planning" className="img-fluid" />
             </div>
           </div>
         </div>
